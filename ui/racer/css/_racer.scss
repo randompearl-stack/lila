@@ -77,8 +77,12 @@
       transform: scaleX(-1);
     }
   }
-  &--pre .racer__skip {
-    cursor: not-allowed;
+  &--pre {
+    .puz-side {
+      padding: 2vh 2vw 4vh 2vw;
+    }
+    .racer__skip {
+      cursor: not-allowed;
   }
 
   &__spectating .puz-clock__time {
